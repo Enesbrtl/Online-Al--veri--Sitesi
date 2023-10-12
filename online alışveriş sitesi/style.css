@@ -1,0 +1,38 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-gri{
+    background-color: gray;
+}
+
+.kart-yap {
+    
+    
+    margin-left: auto; /* Sağa kaydırma için sola boşluk bırakma */
+  }
+  
+  .card {
+    padding: 20px; /* Kart içeriği iç boşluğu */
+  }
+  
+ .container-fluid{
+  background-color: burlywood;
+ }
+ @media screen and (max-width:546px) {
+  .service h5 {
+      font-size: 14px !important;
+  }
+
+  .service ul li a {
+      font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width:453px) {
+  .footer-bottom p {
+      font-size: 12px;
+      margin: auto;
+  }
+} 
